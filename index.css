@@ -1,0 +1,268 @@
+/*Universal Selector*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+    
+
+/*Set the body background color*/
+
+body{
+    background-color: #f4f4f4;
+    color:/*Set the body color*/ white;
+
+}
+
+/*styling the header section of the code*/
+
+header {
+    background-color:#333;
+    color: white;
+}
+
+/*Styling the navigation section of the code*/
+
+nav ul {
+    padding:30px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 6px 12px;
+    margin-right: 40px;
+    
+}
+
+nav ul li a {
+    text-decoration: underline;
+    color: white;
+    font-size: 1.2rem;
+    font-weight:bold;
+    cursor: pointer;
+    
+}
+
+nav ul li a:hover{
+    color: white;
+    background-color:rgb(227, 65, 64);
+    padding:10px 24px;
+    border-radius: 5px;
+}
+
+/*styling the main section of the code*/
+
+main {
+    height:auto;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    padding:20px 15px 10px 15px;
+}
+
+.about {
+    background-color:#ccc;
+    border-radius: 2px;
+    width:100%;
+}
+
+.about h2 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin: 14px;
+    padding: 10px;
+    color: red;
+}
+
+
+.about p {
+    color:#000;
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin: 10px;
+    padding-bottom:15px;
+    text-align: justify;
+    line-height:2rem;
+}
+
+
+.experts_our {
+    background-color:#ccc;
+    color: blue;
+    line-height:2rem;
+    padding: 25px;
+    border-radius: 2px;
+}
+
+.america {
+    color: red;
+    font-size:20px;
+    font-weight: bolder;
+    
+}
+
+.team {
+    font-weight: bolder;
+    color:blue;
+}
+
+.team:hover {
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: red;
+}
+.experts_our h2 {
+    font-size: 30px;
+    
+}
+
+/*Styling class experts_our under paragraph P*/
+
+.experts_our p {
+    color:#000;
+    font-size: 1rem;
+    line-height: 3rem;
+    text-align: justify;
+}
+/*Styling the container of the code*/
+
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    height: auto;
+    justify-content: center;
+}
+    
+/*Styling the css cards */
+.card {
+    width: 280px;
+    margin:10px 20px 10px 15px;
+    height:auto;
+    border-radius:4px;
+    background-color: #f03232;
+    padding:15px 10px 8px 20px;
+}
+
+/*Styling the css cards */
+.card img{
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius:50%; 
+}
+
+
+/*Styling h2  selector h2 of the cards */
+.card h2{
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*Styling selector of the card */
+.card p{
+    color:#333;
+    font-size: 1.5rem;
+    margin-top: 12px;
+    padding-bottom:15px;
+}
+
+/*Styling the footer section of the code*/
+footer{
+    background-color: #333;
+    color: white;
+    height: 50px;
+    padding: 20px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+/*Styling h2 of class contact */
+
+.contact h2{
+    color:#fff;
+    margin-top:35px;
+    background-color:blue;
+    line-height:2rem;
+    border-radius:2px;
+    height:35px;
+    width:100%;
+    margin-left: 20px;
+    margin-right:20px;
+
+
+    
+}
+
+
+
+/*The hover effect of h2 of class contact*/
+
+.contact h2:hover{
+    text-decoration: underline;
+    margin-right:14px;
+    text-transform: uppercase;
+    
+    
+}
+
+/*Styling the Label element of the form*/
+
+label{
+    margin-left:10px;
+    padding:12px 12px 12px 1px;
+    display:flex;
+
+
+}
+
+/*Styling the input elements of the code*/
+
+input[type=text],
+input[type=email],
+input[type=password]{
+
+    /* width: 50%;
+    height: 30px;
+    border: 1px solid none;
+    margin-top: 12px;
+    display: block;
+    resize: vertical; */
+
+    width:50%;
+    display:block;
+    height:40px;
+    border: 1px solid #ccc;
+    border-radius:4px;
+    padding-left: 15px;
+    margin:10px;
+    resize: vertical;
+}
+
+
+/*Styling the button*/
+
+button {
+    background-color: #000;
+    color: white;
+    padding: 8px 16px;
+    border-radius:5px;
+    border:none;
+}
+
+/*Styling the button by putting the hover effect*/
+button:hover{
+    background-color: red;
+}
+
+/*Styling the button by addding the focus aspect*/
+
+button:focus{
+    background-color:green;
+}
